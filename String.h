@@ -127,9 +127,9 @@ bool operator>  (const string& lhs, const char* rhs);
 bool operator>= (const string& lhs, const string& rhs);
 bool operator>= (const char* lhs, const string& rhs);
 bool operator>= (const string& lhs, const char* rhs);
+void swap(string& x, string& y);
 std::istream& operator>> (std::istream& is, string& str);
 std::ostream& operator<< (std::ostream& os, const string& str);
 std::istream& getline(std::istream& is, string& str, char delim);
 std::istream& getline(std::istream& is, string& str);
-void swap(string& x, string& y);
 #endif
